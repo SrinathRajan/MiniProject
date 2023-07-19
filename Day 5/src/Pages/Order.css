@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+.Main {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-photo/red-delivery-car-deliver-express-with-cardboard-boxes-cartoon-shipping-transportation-concept-white-website-banner-background-3d-rendering_56104-1912.jpg?size=626&ext=jpg&ga=GA1.1.1952704272.1678083418&semt=sph"); 
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color: whitesmoke;
+  /* background-image: url("https://img.freepik.com/premium-photo/outside-logistics-warehouse-delivery-van-loaded-with-cardboard-boxes-created-with-generative-ai-technology_132358-10945.jpg?size=626&ext=jpg&ga=GA1.1.1952704272.1678083418&semt=sph");
+  */
+
+}
+
+.w {
+  margin-top: 5%;
+  width: 30%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  /* font-family: "Arimo"; */
+  /* background-image: -webkit-image-set("https://images.pexels.com/photos/3756879/pexels-photo-3756879.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
+  border-radius: 25px;
+  background-color: grey/* background-image: url(https://img.freepik.com/free-photo/cardboard-box_144627-20326.jpg?size=626&ext=jpg&ga=GA1.1.1952704272.1678083418&semt=sph); */
+  /* background-image: url(https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+}
+
+.contain {
+  width: 65%;
+  padding: 1% 2%;
+  
+}
+
+.s{
+  align-self: center;
+  color: black;
+}
+
+form {
+  width: 100%;
+}
+form > * {
+  margin-top: 20px;
+}
+form input {
+  width: 100%;
+  min-height: 2px;
+  border: 0;
+  font-size: smaller;
+  letter-spacing: 0.15rem;
+  margin-top: 7px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+form label {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: bolder;
+}
+form h1 {
+  font-size: 24px;
+  line-height: 10px;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+form h1:nth-of-type(2) {
+  margin-top: 10%;
+}
+
+.name {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.name div {
+  width: 45%;
+}
+
+.address-info1,.address-info2,.address-info3 {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+
+}
+
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  align-items: flex-end;
+  font-size: x-small
+}
+.btns button {
+  
+  margin: 4px 0;
+  margin-right: -50px;
+  font-size: small;
+  font-weight: bolder;
+  height: 30px;
+  width: 150px;
+  color: #0b0b0b;
+  background-color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.btns button:hover {
+  animation-name: btn-hov;
+  animation-duration: 550ms;
+  animation-fill-mode: forwards;
+  
+}
+.cc-num{
+  width: 120px;
+}
+ /* Media queries */
+ @media (max-width: 768px) {
+  .form-container {
+    width: 90%;
+    max-width: none;
+  }
+}
