@@ -1,0 +1,67 @@
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url("https://images.pexels.com/photos/6169033/pexels-photo-6169033.jpeg?auto=compress&cs=tinysrgb&w=600"); 
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+  }
+  
+  .signup-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: grey;
+    box-shadow: black;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .in {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .up {
+    text-align: center;
+  }
+  
+  .up button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .up button:hover {
+    background-color: black;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  .b2{
+    margin-left: 40%;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 5px;
+  }
+  #aaaa{
+    margin-left: 20%;
+  }
