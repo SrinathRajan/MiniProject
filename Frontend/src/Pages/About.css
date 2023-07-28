@@ -1,0 +1,12 @@
+/* body{
+    font-size: medium;
+} */
+#kkk{
+    background-image: url("https://img.freepik.com/premium-photo/about-us-information-info-company-presentation-internet-blue-computer-keyboard_770123-7082.jpg?size=626&ext=jpg&ga=GA1.2.1952704272.1678083418&semt=ais");
+     width: 100%;
+    height: 100vh;
+    /* overflow: auto;  */
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+}
